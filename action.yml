@@ -1,0 +1,13 @@
+name: 'Hello asgrm action'
+description: 'Greet someone and record the time'
+inputs:
+  name:
+    description: 'Who to greet'
+    required: true
+    default: 'asgrm'
+outputs:
+  greeting:
+    description: 'How we greet you'
+runs:
+  using: 'node20'
+  main: 'index.js'
